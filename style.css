@@ -1,0 +1,110 @@
+  * {
+    box-sizing: border-box;
+    text-transform: capitalize;
+  }
+  body {
+    min-height: 100vh;
+    background:linear-gradient(to right  , #ff9100b0 ,#2260d3e0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  input {
+    border: 1px #ff7d55 solid;
+    border-radius: 2px;
+    text-transform:none;
+    padding: 10px 15px;
+    text-align: center;
+    
+  }
+  input::placeholder {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: rgba(128, 0, 128, 0.74);
+  }
+  input:focus{
+    /* width: 60%; */
+    outline: none;
+  }
+  img,input{
+    display: block;
+    margin: 5px auto ;
+    margin-top: 50px;
+  }
+  h2{
+    font-size: 1.5vw;
+    text-align: center;
+    color: beige;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  p{
+    font-size: 1.5vw;
+    text-align: center;
+    color: rgb(104, 255, 255);
+    font-family:monospace;
+  }
+  ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  .sub li{
+    margin:10px 30px;
+    color: rgb(219, 255, 241);
+    font-family: serif;
+    font-style: italic;
+    font-size: 2vw;
+  }
+  .head li{
+    color: rgba(0, 0, 0, 0.979);
+    margin-right: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+  }
+  .card{
+    display: block;
+    width: 40%;
+    margin:auto;
+    margin-bottom: 30px;
+    background-color: crimson;
+    border: 2px solid black;
+    border-radius: 12.5%;
+    Box-Shadow: 0 0 10px #ffffff, 0 0 40px #7a06ffda, 0 0 80px #00fc7e; 
+  }
+  img{
+    /* height: 40vh; */
+    Width: 30%;
+    border-radius: 50%;
+    border: 2px solid wheat;
+  }
+  img:hover{
+    Width: 33%;
+    border-radius: 53%;
+
+  }
+  button{
+    font-size: 1.1vw;
+    display: block;
+    width: 30%;
+    margin: auto;
+    padding:  6px;
+    border: 5px solid transparent;
+    border-radius: 2px;
+    margin-bottom: 30px;
+    background-color: yellow;
+  }
+  a{
+    color: rgb(112, 11, 138);
+    font-family: 'Gill Sans';
+    font-size: 16px;
+    text-decoration: none;
+  }
+  @media only screen and (max-width:400px) {
+    button{
+      width:70%;
+      font-size: 12px;
+    }
+    input{
+      font-size: 10px;
+    }
+  }
